@@ -1,0 +1,20 @@
+title: Legos for the Blind
+email: matshifrin@aol.com
+description: > # This is the home of text-based instructions for commercially-available LEGO sets, which can be built independently by blind or visually impaired people.
+baseurl: ""
+url: http://legosfortheblind.com/
+twitter_username: 
+github_username: 
+facebook_page: 
+youtube_username:
+collections: 
+  instructions:
+    output: true
+    permalink: /instructions/:path/
+  links:
+    output: true
+    permalink: /links/:path/
+sass:
+  sass_dir: _sass
+markdown: kramdown
+include: ['_pages']

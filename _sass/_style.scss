@@ -1,0 +1,28 @@
+// .instructions-body {
+// 	float: left;
+// }
+
+.instructions-img {
+	display: none;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+.hero {
+	text-align: center;
+	.hero-image{
+		width: 300px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	// .hello{
+	// 	color: $brand-color;
+	// }
+	.hero-text{
+		width: 400px;
+		margin: 0 auto;
+	}
+	
+}
