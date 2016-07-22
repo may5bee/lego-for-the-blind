@@ -1,7 +1,6 @@
 title: Legos for the Blind
 email: matshifrin@aol.com
-description: site description here
-url: http:/kevinyma.github.io/legos-for-the-blind
+url: http:/kevinyma.github.io
 baseurl: /legos-for-the-blind
 collections: 
   instructions:
