@@ -13,7 +13,7 @@ layout: default
   	<h2>Download Link{% if page.filenames.size > 1 %}s{% endif %}</h2>
 
     {% for file in page.filenames %}
-    	<a href="/docs/{{file}}">{{file}}</a><br>
+    	<a href="{{ site.baseurl }}/docs/{{file}}">{{file}}</a><br>
 	{% endfor %}
 
 	<h2>More Information</h2>

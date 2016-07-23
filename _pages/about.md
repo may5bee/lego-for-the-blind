@@ -76,7 +76,7 @@ LEGO allows me to see things that are impossible to explore by touch, such as th
 Currently I have accessible instructions for the following LEGO sets (set numbers are in parentheses):
 
 {% for instructions in site.instructions %}
-- [{{instructions.title}} ({{instructions.setnumber}})]({{instructions.url}})
+- [{{instructions.title}} ({{instructions.setnumber}})]({{ site.baseurl}}{{instructions.url}})
 {% endfor %}
 
 If you would like any of these accessible instructions, or if you would like to help make more LEGO sets accessible, please email me at matshifrin@aol.com.
