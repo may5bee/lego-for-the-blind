@@ -7,6 +7,6 @@ link: http://shop.lego.com/en-US/Town-Hall-10224
 filenames: 
 - 10224 Town Hall book 1.doc
 - 10224 town hall book 2.doc
-- 10224 town hall book 3.doc
+- 10224.doc
 ---
 
