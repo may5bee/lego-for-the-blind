@@ -1,7 +1,7 @@
 title: Lego for the Blind
 email: matshifrin@aol.com
 url: http:/kevinyma.github.io
-baseurl: /lego-for-the-blind
+baseurl:
 collections: 
   instructions:
     output: true
