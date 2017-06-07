@@ -1,4 +1,4 @@
----
+﻿---
 layout: instructions
 title: Detective's office
 setnumber: 10246
@@ -8,4 +8,3 @@ link: https://shop.lego.com/en-US/Detective-s-Office-10246
 filenames:
 - lego detective's office.doc
 ---
-
