@@ -1,23 +1,17 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"></p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
+<div class="content-section">
+  
+  <h4 class="post-title" itemprop="name headline">{{ page.title }}</h4>
   	{{page.description}}
-  	<h2>Download Link{% if page.filenames.size > 1 %}s{% endif %}</h2>
 
+  <div class="mini-section">
     {% for file in page.filenames %}
-    	<a href="{{ site.baseurl }}/docs/{{file}}">{{file}}</a><br>
-	{% endfor %}
-
-	<h2>More Information</h2>
-	<a href="{{page.link}}">{{page.link}}</a><br>
+    <a href="/docs/{{file}}">  
+      <h4>Download Link{% if page.filenames.size > 1 %}s{% endif %}</h4>
+    </a>
+    {% endfor %}
+  	<a href="{{page.link}}"><h4>More Information</h4></a><br>
   </div>
-
-</article>
+</div>

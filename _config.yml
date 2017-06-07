@@ -1,7 +1,7 @@
-title: Lego for the Blind
+title: lego for the blind
 email: matshifrin@aol.com
 url: http:/kevinyma.github.io
-baseurl:
+baseurl: /legos-for-the-blind
 collections: 
   instructions:
     output: true
@@ -13,3 +13,4 @@ sass:
   sass_dir: _sass
 markdown: kramdown
 include: ['_pages']
+port: 8000
