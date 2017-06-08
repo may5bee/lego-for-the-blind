@@ -5,19 +5,32 @@ permalink: /instructions/
 ---
 
 <div class="content-section">
+<div class="row">
+<div class="col-sm-6">
+Remember: it is the sighted friend's responsibility to sort the pieces
+</div>
+</div>
 
-<ul class="post-list">
+
     {% for instruction in site.instructions %}
-      <li> 
-        <a class="post-link" href="{{ instruction.url | prepend: site.baseurl }}"><img class="instructions-img" src="" alt="instruction.alt" width="80" height="80"></a>
-        <div class="instructions-body">
-        <h4>
-          <a class="post-link" href="{{ instruction.url | prepend: site.baseurl }}">{{ instruction.title }}</a>
-        </h4>
+      
+
+    <div class="mini-section">
+
+       <!--  <a href="{{ instruction.url | prepend: site.baseurl }}">
+        <img class="instructions-img" src="{{instruction.img}}" alt="instruction.alt" width="80" height="80"></a> -->
+        
+
+        <a href="{{ instruction.url | prepend: site.baseurl }}"><h4>
+          {{ instruction.title }}
+        </h4></a>
+        <p>{{ instruction.pieces }} Pieces</p>
         <!-- <a href="{{ instruction.url | prepend: site.baseurl }}">Download</a>
         <a href="{{instruction.link}}">More Information</a> -->
-    	</div>
-      </li>
+    
+    </div>
     {% endfor %}
-</ul>
+
+
+
 </div>

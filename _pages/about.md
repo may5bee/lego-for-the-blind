@@ -5,6 +5,19 @@ permalink: /about/
 ---
 
 <div class="content-section">
+  <div class="row">
+      <div class="col-md-12 section-title"><h4>Hi! I'm Matthew.</h4>
+        </div>
+        <div class="col-sm-6"><p>It was the morning of my thirteenth birthday, and I was filled with the usual birthday excitement. I was most eager to see my friend Lilya.
+
+Lilya, a family friend, could adapt just about anything. It was her philosophy that I, as a blind person, should have equal access to everything that my sighted peers had. That  morning she arrived toting a large cardboard box and a binder. The box was labeled, "LEGO Battle of Almut, 841 pieces." The binder contained a set of Brailled instructions.</p></div>
+        <div class="col-sm-6"><p>The gift caught me totally by surprise. I didn't think that, as a blind person, I'd ever be able to follow the instructions to build the creations depicted on  the LEGO box without the help of a sighted person. But I was wrong.
+
+My first encounter with LEGO came when I was four years old. My parents bought me a Duplo train. Duplo is the larger and more child-friendly brother of LEGO. I had great fun rearranging the cars, stacking them, and connecting the people and freight pieces in various ways.</p></div>
+  </div>
+</div>
+
+<div class="content-section">
 
 It was the morning of my thirteenth birthday, and I was filled with the usual birthday excitement. I was most eager to see my friend Lilya.
 

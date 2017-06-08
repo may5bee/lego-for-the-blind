@@ -9,8 +9,11 @@ collections:
   links:
     output: true
     permalink: /links/:path/
+  articles:
+    output: true
+    permalink: /press/:path/
 sass:
   sass_dir: _sass
 markdown: kramdown
 include: ['_pages']
-port: 8000
+port: 8888

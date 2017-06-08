@@ -10,9 +10,18 @@ h2 {
 	margin-bottom: 0;
 }
 
+h4 {
+	color: #FF3B36;
+}
+
 $link-color: #FF3B36;
 $button-color: #284BDD;
 $footer-color: #d8d8d8;
+
+$blue: #284BDD;
+$yellow: #FFCD2C;
+$red: #FF3B36;
+
 
 //..............................Navigation...............................
 
@@ -51,10 +60,8 @@ $footer-color: #d8d8d8;
     font-size: 14px;
 }
 
-
-
-
 //..............................Logo & animation...............................
+
 .lego {
 	position: absolute;
 	width: 40px;
@@ -67,6 +74,7 @@ $footer-color: #d8d8d8;
 	margin: 60px auto 50px auto;
 	position: relative;
 }
+
 .lego-3 {
 	top: -200px;
 	animation-delay: 0.4s;
@@ -204,16 +212,28 @@ $footer-color: #d8d8d8;
     }
 }
 
-.footer-logos {
-	margin-top: -3px;
+.footer-buttons {
 	float: right;
 	button {
 		font-weight: 500;
 		color: white;
-		background-color: $button-color;
 		border: none;
 		border-radius: 3px;
 		margin-left: 5px;
+	}
+}
+
+.share-buttons {
+	margin-top: -3px;
+	button {
+		background-color: $blue;
+	}
+}
+
+.questions-buttons {
+	margin-top: -10px;
+	button {
+	background-color: $red;
 	}
 }
 
@@ -246,7 +266,7 @@ button:focus {outline:0;}
 
 //.............................HOME.................................
 
-.how-it-works {
+.section-title {
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -269,6 +289,7 @@ button:focus {outline:0;}
     padding-top: 25px;
     height: 0;
 }
+
 .videowrapper iframe {
     position: absolute;
     top: 0;
@@ -276,3 +297,85 @@ button:focus {outline:0;}
     width: 100%;
     height: 100%;
 }
+
+//form 
+
+#MERGE0 {
+	padding: 20px;
+	width: 80%;
+	float: left;
+	height: 60px;
+}
+
+#MERGE0:focus {
+	outline: 0;
+}
+
+#submit-email {
+	padding: 20px;
+	width: 20%;
+	float: left;
+	height: 60px;
+	background-color: $red;
+	color: white;
+	border: none;
+}
+
+//...........................Press...............................
+
+.press-image-container {
+	position: relative;
+	width: 50%;
+	float: left;
+	height: 230px;
+	overflow: hidden;
+}
+
+.press-image {
+  width: 100%;
+  height: auto;
+}
+
+.press-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 230px;
+  width: 100%;
+  opacity: 0.8;
+  transition: .2s ease;
+}
+
+.blue-background {
+	background-color: $blue;
+}
+
+.yellow-background {
+	background-color: $yellow;
+}
+
+.red-background {
+	background-color: $red;
+}
+
+.press-image-container:hover .press-overlay {
+  opacity: 1;
+}
+
+.press-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.press-image-container:hover .press-text {
+  opacity: 1;
+}
+
