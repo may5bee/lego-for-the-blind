@@ -3,7 +3,7 @@ layout: page
 title: 
 permalink: /links/
 ---
-
+<!-- 
 <div class="content-section">
 <ul class="post-list">
     {% for link in site.links %}
@@ -15,4 +15,4 @@ permalink: /links/
       </li>
     {% endfor %}
 </ul>
-</div>
+</div> -->
