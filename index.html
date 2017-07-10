@@ -14,7 +14,7 @@ title: "home"
 </div>
 
 
-<div class="content-section division">
+<div class="content-section division" >
   <div class="row mini-section">
     <div class="col-md-12 section-title">
       <h4>How It Works</h4>
@@ -22,41 +22,76 @@ title: "home"
   </div>
   <div class="row mini-section">
      <div class="col-sm-6"><img src="{{ site.baseurl }}/img/1.png"></div>
-    <div class="col-sm-6">Download one of the text-based <a href="">instructions</a>.</div>
+    <div class="col-sm-6 caption">Download one of the text-based <a href="">instructions</a>.</div>
   </div>
   <div class="row mini-section">
     <div class="col-sm-6"><img src="{{ site.baseurl }}/img/2.png"></div>
-    <div class="col-sm-6">Have a sighted friend help <a href="">sort</a> the pieces.</div>
+    <div class="col-sm-6 caption">Have a sighted friend help <a href="/sorting">sort</a> the pieces.</div>
   </div>
   <div class="row mini-section">
     <div class="col-sm-6"><img src="{{ site.baseurl }}/img/3.png"></div>
-    <div class="col-sm-6">Build the set on par with a sighted builder.</div>
+    <div class="col-sm-6 caption">Build the set!</div>
   </div>
 </div>
 
-<div class="content-section clearfix">
+<div class="marker"></div>
 
-  <form action="https://legofortheblind.us16.list-manage.com/subscribe/post" method="POST">
-      <input type="hidden" name="u" value="684bf35f89109812b832ca7c6">
-      <input type="hidden" name="id" value="67411692bf">
-      <div id="mergeTable" class="mergeTable">
-          <div class="mergeRow dojoDndItem mergeRow-email" id="mergeRow-0">
+<div class="clearfix emailnormal content-section-small" id="email-box" >
 
-              <div class="field-group">
-                  <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Enter your e-mail address..."> 
-              </div>        
-          </div>
-      </div>
-      <div class="submit_container clear">
-          <input type="submit" class="button" name="submit" id="submit-email" value="Get updates">
-      </div>
-      <input type="hidden" name="ht" value="622434ebc8138d70cc10241ba79c30ef246221e5:MTQ5Njk1NzcxNy45NDY3">
-      <input type="hidden" name="mc_signupsource" value="hosted">
-  </form>
-        
+  <div id="email-box-inner">
+    <form action="https://legofortheblind.us16.list-manage.com/subscribe/post" method="POST">
+        <input type="hidden" name="u" value="684bf35f89109812b832ca7c6">
+        <input type="hidden" name="id" value="67411692bf">
+        <div id="mergeTable" class="mergeTable">
+            <div class="mergeRow dojoDndItem mergeRow-email" id="mergeRow-0">
+
+                <div class="field-group">
+                    <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" placeholder="Enter your e-mail address..."> 
+                </div>        
+            </div>
+        </div>
+        <div class="submit_container clear">
+            <input type="submit" class="button" name="submit" id="submit-email" value="Get updates">
+        </div>
+        <input type="hidden" name="ht" value="622434ebc8138d70cc10241ba79c30ef246221e5:MTQ5Njk1NzcxNy45NDY3">
+        <input type="hidden" name="mc_signupsource" value="hosted">
+    </form>
+  </div>
 
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+// var emailPos = $(".marker").offset().top;
+
+// console.log("lol" + emailPos);
+// $(window).on('scroll',function(){
+//     var y = $(this).scrollTop();
+//     console.log(y);
+//     if (y >= emailPos - 93) {
+//         console.log("exceeded");
+//         $('#email-box').addClass('emailnormal');
+//         $('#email-box').removeClass('emailfixed');
+//     } else {
+//          $('#email-box').addClass('emailfixed');
+//         $('#email-box').removeClass('emailnormal');
+//     }
+// });
+
+//if img has alt tag, change contents of alt
+$(document).on('scroll', function() {
+    var y = $(this).scrollTop();
+    $('img').each(function(){
+      if (y >= $(this).position().top){
+        if($(this).attr("alt")){
+          var text = $(this).attr("alt");
+            $('aside').html(text);
+        }
+      }
+  });
+})
+</script>
 
   <!-- <h1 class="page-heading">News</h1>
   <ul class="post-list">

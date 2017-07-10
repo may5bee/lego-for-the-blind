@@ -9,7 +9,7 @@ permalink: /press/
 </div>
 
 
-<div class="content-section clearfix">
+<div class="clearfix">
 {% for article in site.articles %}
 	<a href="{{ article.link }}">
 	<div class="press-image-container">

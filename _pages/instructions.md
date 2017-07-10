@@ -5,11 +5,12 @@ permalink: /instructions/
 ---
 
 <div class="content-section">
-<div class="row">
+<!-- <div class="row">
 <div class="col-sm-6">
-Remember: it is the sighted friend's responsibility to sort the pieces
+
+
 </div>
-</div>
+</div> -->
 
 
     {% for instruction in site.instructions %}
