@@ -8,19 +8,21 @@ layout: default
       <h4>{{ page.title }}</h4>
     </div>
   </div>
-  
+
   <div class="mini-section row">
     <div class="col-md-6 ">
       {{page.description}}
     </div>
      <div class="col-md-6 ">
       {% for file in page.filenames %}
-      <a href="/docs/{{file}}">  
-        <h4>Download Instructions{% if page.filenames.size > 1 %}s{% endif %}</h4>
+      <a href="/docs/{{file}}">
+        <h4>Download Instructions{% if page.filenames.size > 1 %} {{forloop.index}}{% endif %}</h4>
       </a>
       {% endfor %}
+      {% if page.link %}
     	<a href="{{page.link}}"><h4>Lego.com Link</h4></a><br>
+      {% endif %}
     </div>
   </div>
-  
+
 </div>

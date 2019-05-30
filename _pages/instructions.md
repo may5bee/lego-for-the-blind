@@ -25,7 +25,7 @@ permalink: /instructions/
         <a href="{{ instruction.url | prepend: site.baseurl }}"><h4>
           {{ instruction.title }}
         </h4></a>
-        <p>{{ instruction.pieces }} Pieces</p>
+        <p>#{{ instruction.setnumber }} | {{ instruction.pieces }} Pieces</p>
         <!-- <a href="{{ instruction.url | prepend: site.baseurl }}">Download</a>
         <a href="{{instruction.link}}">More Information</a> -->
     
