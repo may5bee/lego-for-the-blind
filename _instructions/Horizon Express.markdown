@@ -1,11 +1,11 @@
 ---
 layout: instructions
 title: Horizon Express
-setnumber: 4842
-pieces: 1290
-description: The Dementors have the Hogwarts™ School of Witchcraft and Wizardry surrounded, and an epic battle between Harry Potter and Lord Voldemort is looming! Harry and Dumbledore face He Who Must Not Be Named while Professors McGonagall and Flitwick try to keep the school safe. Explore this essential Harry Potter set to discover incredible details like Dumbledore’s office with sliding spiral staircase, the Slytherin and Gryffindor common rooms, and so much more!
-link: http://shop.lego.com/en-US/Hogwarts-Castle-4842
+setnumber: 10233
+pieces: 1351
+description: Fly down the track in the Horizon Express!
+link: https://brickipedia.fandom.com/wiki/10233_Horizon_Express
 filenames: 
-- 4842 Hogwarts.doc
+- 10233 Horizon Express.txt
 ---
 
