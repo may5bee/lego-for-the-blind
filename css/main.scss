@@ -6,9 +6,9 @@
 
 
 // Our variables
-$secondary-font-family: "Merriweather", Georgia, serif;
-$base-font-family: "Inconsolata", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$secondary-font-family: Courier, sans-serif;
+$base-font-family: 'Work Sans', sans-serif;
+$base-font-size:   14px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -17,8 +17,8 @@ $spacing-unit:     30px;
 
 $nav-color:        #FFF;
 $text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #f54545;
+$background-color: #eaeaea;
+$brand-color:      black;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -26,10 +26,10 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    800px;
-
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$background-color: #e4e4e4;
 
 
 // Use media queries like this:
@@ -46,11 +46,9 @@ $on-laptop:        800px;
 }
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
         "style",
         "syntax-highlighting",
         "webicons"

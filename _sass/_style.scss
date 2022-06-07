@@ -10,19 +10,398 @@ h2 {
 	margin-bottom: 0;
 }
 
-.hero {
-	text-align: center;
-	.hero-image{
-		width: 300px;
-		text-align: center;
-		margin: 0 auto;
-	}
-	// .hello{
-	// 	color: $brand-color;
-	// }
-	.hero-text{
-		width: 400px;
-		margin: 0 auto;
-	}
-	
+h4 {
+	color: #FF3B36;
 }
+
+$link-color: #FF3B36;
+$button-color: #284BDD;
+$footer-color: #d8d8d8;
+
+$blue: #284BDD;
+$yellow: #FFCD2C;
+$red: #FF3B36;
+
+
+//..............................Navigation...............................
+
+.title-box {
+	margin: 0;
+}
+
+.title {
+	letter-spacing: 0.5px;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.header-box {
+	min-width: 300px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+.nav-contain {
+	width: 200px;
+	margin: 20px auto 20px auto;
+}
+
+.navigation {
+    text-align: justify;
+}
+
+.navigation:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.navigation li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+//..............................Logo & animation...............................
+
+.lego {
+	position: absolute;
+	width: 40px;
+	top: -200px;
+}
+
+.logo-box {
+	height: 60px;
+	width: 40px;
+	margin: 60px auto 50px auto;
+	position: relative;
+}
+
+.lego-3 {
+	top: -200px;
+	animation-delay: 0.4s;
+	animation-duration: 0.3s;
+	animation-name: legodrop-3;
+	animation-fill-mode: forwards;
+}
+
+@keyframes legodrop-3 {
+	from {
+		display: block;
+		top: -200px;
+
+	}
+	75% {
+		top: 45px;
+	}
+	to {
+		top: 35px;
+	}
+}
+
+.lego-2 {
+	animation-delay: 0.6s;
+	animation-duration: 0.3s;
+	animation-name: legodrop-2;
+	animation-fill-mode: forwards;
+}
+
+@keyframes legodrop-2 {
+	from {
+		top: -200px;
+	}
+	75% {
+		top: 30px;
+	}
+	to {
+		top: 20px;
+	}
+}
+
+.lego-1 {
+	animation-delay: 0.9s;
+	animation-duration: 0.3s;
+	animation-name: legodrop-1;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes legodrop-1 {
+	from {
+		top: -100px;
+	}
+	75% {
+		top: 15px;
+	}
+	to {
+		top: 5px;
+	}
+}
+
+.lego-3-alt {
+	top: 35px;
+	animation-delay: 0.2s;
+	animation-duration: 0.3s;
+	animation-name: lego-3-bump;
+	animation-fill-mode: forwards;
+}
+
+@keyframes lego-3-bump {
+	from {
+		display: block;
+		top: 35px;
+
+	}
+	75% {
+		top: 31px;
+	}
+	to {
+		top: 35px;
+	}
+}
+
+.lego-2-alt {
+	top: 20px;
+	animation-delay: 0.3s;
+	animation-duration: 0.3s;
+	animation-name: lego-2-bump;
+	animation-fill-mode: forwards;
+}
+
+@keyframes lego-2-bump {
+	from {
+		top: 20px;
+	}
+	75% {
+		top: 16px;
+	}
+	to {
+		top: 20px;
+	}
+}
+
+.lego-1-alt {
+	top: 5px;
+	animation-delay: 0.4s;
+	animation-duration: 0.3s;
+	animation-name: lego-1-bump;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes lego-1-bump {
+	from {
+		top: 5px;
+	}
+	75% {
+		top: 1px;
+	}
+	to {
+		top: 5px;
+	}
+}
+
+//..............................Footer...............................
+
+.footer-section {
+	max-width: 700px;
+    margin: 0 auto 0 auto;
+    padding: 60px 60px 60px 60px;
+    background-color: $footer-color;
+    font-size: 12px;
+    p {
+    	margin: 0;
+    }
+}
+
+.footer-buttons {
+	float: right;
+	button {
+		font-weight: 500;
+		color: white;
+		border: none;
+		border-radius: 3px;
+		margin-left: 5px;
+	}
+}
+
+.share-buttons {
+	margin-top: -3px;
+	button {
+		background-color: $blue;
+	}
+}
+
+.questions-buttons {
+	margin-top: -10px;
+	button {
+	background-color: $red;
+	}
+}
+
+button:focus {outline:0;}
+
+.footer-image {
+	width: 40px;
+	display: inline-block;
+}
+
+//.............................GENERAL.................................
+
+.caption {
+	margin-top: 100px;
+}
+
+.content-box {
+	max-width: 700px;
+    margin: 0 auto 0 auto;
+    background: white;
+}
+
+.content-section {
+	padding: 60px;
+}
+
+.content-section-small {
+	padding: 30px 60px;
+}
+
+.mini-section {
+	margin-bottom: 20px;
+}
+
+.division {
+	border-bottom: 1px solid $background-color;
+}
+
+//.............................HOME.................................
+
+.section-title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.row a {
+	color: $link-color;
+}
+
+.youtube {
+	max-width: 700px;
+	max-height: 393px;
+}
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+//form 
+
+#MERGE0 {
+	padding: 20px;
+	width: 80%;
+	float: left;
+	height: 60px;
+}
+
+#MERGE0:focus {
+	outline: 0;
+}
+
+#submit-email {
+	padding: 20px;
+	width: 20%;
+	float: left;
+	height: 60px;
+	background-color: $red;
+	color: white;
+	border: none;
+}
+
+.emailfixed {
+
+	position: fixed;
+	bottom: 0;
+	width: 700px;
+	background: white;
+	padding: 30px 60px;
+	border-top: 1px solid $background-color;
+
+}
+
+.emailnormal {
+	position: relative;
+	border: none;
+}
+
+//...........................Press...............................
+
+.press-image-container {
+	position: relative;
+	width: 50%;
+	float: left;
+	height: 230px;
+	overflow: hidden;
+}
+
+.press-image {
+  width: 100%;
+  height: auto;
+}
+
+.press-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 230px;
+  width: 101%;
+  opacity: 0.8;
+  transition: .2s ease;
+}
+
+.blue-background {
+	background-color: $blue;
+}
+
+.yellow-background {
+	background-color: $blue;
+}
+
+.red-background {
+	background-color: $blue;
+}
+
+.press-image-container:hover .press-overlay {
+  opacity: 1;
+  background-color: white;
+}
+
+.press-text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: .1s ease;
+}
+
+.press-image-container:hover .press-text {
+  opacity: 1;
+}
+

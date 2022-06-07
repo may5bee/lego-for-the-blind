@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Links
-permalink: /links/
+title: 
+permalink: /blog/
+ignore: true
 ---
 
 <ul class="post-list">

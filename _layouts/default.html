@@ -7,13 +7,31 @@
 
     {% include nav.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="content-box">
+
         {{ content }}
-      </div>
+
     </div>
 
-    {% include footer.html %}
-  </body>
+	<div class="footer-section row division " id="foot">
+	    <span>Tell your friends about Lego for the Blind</span>
 
+  		<div class="footer-buttons share-buttons">
+  		<a class="facebook" href="http://www.facebook.com/share.php?u={{site.url}}&title={{site.title}}"><button class="blue">Share on Facebook</button></a>
+  		<a class="twitter" href="http://twitter.com/home?status={{site.title}}+{{site.url}}"><button>Tweet</button></a>
+  		</div>
+
+
+	</div>
+
+	<div class="footer-section row">
+	    <span>Lego for the Blind is created by <a href="">Matthew Shifrin</a>.
+	    <br>Website by <a href="http://kevinyma.github.io">Kevin Ma</a>.</span>
+
+      <div class="footer-buttons questions-buttons">
+        <a class="facebook" href="mailto:matshifrin@aol.com"><button>Questions?</button></a>
+      </div>
+	</div>
+
+</body>
 </html>
