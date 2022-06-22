@@ -1,2 +1,2 @@
-# legos-for-the-blind
-Making legos accessible to blind and visually impaired people.
+# This has moved.
+Please see the fork: https://github.com/motya105/lego-for-the-blind
